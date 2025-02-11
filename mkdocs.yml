@@ -3,6 +3,7 @@ site_name: hjoao
 
 # Theme Configuration
 theme:
+  language: pt
   name: material
   favicon: assets/icon.ico
   palette:
@@ -67,4 +68,5 @@ markdown_extensions:
 
 # Plugin Configuration
 plugins:
-  - search
+  - search:
+      lang: pt
