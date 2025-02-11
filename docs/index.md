@@ -1,4 +1,4 @@
-# Bem-vindo ao CyberVault!
+# Bem-vindo!
 
 Este site é o meu espaço pessoal para guardar e organizar tudo o que me vem à cabeça — desde os meus apontamentos de estudo em cibersegurança, redes, Linux, até os meus gostos pessoais e ideias soltas.
 
