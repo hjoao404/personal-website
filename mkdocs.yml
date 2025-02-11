@@ -1,0 +1,70 @@
+# Site Configuration
+site_name: hjoao
+
+# Theme Configuration
+theme:
+  name: material
+  favicon: assets/icon.ico
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - search.suggest
+    - content.footnote.tooltips
+  icon:
+    logo: material/thought-bubble
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+# Footer Configuration
+copyright: Created by hjoao404
+# Disable the initial footer text (generator)
+extra:
+  generator: false
+
+# Navigation Configuration
+nav:
+  - Página Inicial: index.md
+  - Fundamentos de Redes:
+      - Visão Geral das Redes de Computadores: fundamentosRedes/vgrc.md
+      - Como Funcionam as Redes de Computadores: fundamentosRedes/cfrc.md
+  - Fitness: 
+      - Plano de Treino: fitness/ginasio.md
+
+# Markdown Extensions Configuration
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+
+# Plugin Configuration
+plugins:
+  - search
