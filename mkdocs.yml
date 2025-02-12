@@ -28,6 +28,10 @@ theme:
   features:
     - search.suggest
     - content.footnote.tooltips
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate 
+
   icon:
     logo: material/thought-bubble
     admonition:
@@ -53,9 +57,10 @@ extra:
 # Navigation Configuration
 nav:
   - Página Inicial: index.md
+  - Como Criar um Website sem Saber Programar?: website/website_tutorial.md
   - Fundamentos de Redes:
       - Visão Geral das Redes de Computadores: fundamentosRedes/vgrc.md
-      - Como Funcionam as Redes de Computadores: fundamentosRedes/cfrc.md
+      # - Como Funcionam as Redes de Computadores: fundamentosRedes/cfrc.md
   - Fitness: 
       - Plano de Treino: fitness/ginasio.md
 
@@ -65,6 +70,16 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # Plugin Configuration
 plugins:
