@@ -15,7 +15,7 @@ Espero que este repositório seja útil e ao mesmo tempo, um lugar onde podes ex
 ## Canal na Twitch
 
 <iframe
-    src="https://player.twitch.tv/?channel=hjoao_&parent=https://hjoao404.github.io/personal-website/"
+    src="https://player.twitch.tv/?channel=hjoao_&parent=hjoao404.github.io/personal-website/"
     height="400"
     width="700"
     allowfullscreen>
